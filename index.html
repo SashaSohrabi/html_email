@@ -8,14 +8,23 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>LeesCadeau</title>
     <style>
-    @media only screen and (max-width: 600px) {
-      img {
-        margin: 0 !important;
+      @font-face {
+        font-family: 'Arial MT';
+        src: local('ArialMT_light.ttf'),
+          url('fonts/ArialMT_light.ttf') format('truetype');
       }
-      .bg-hero-letters {
-        background-position-y: 42% !important;
+      @media only screen and (max-width: 600px) {
+        img {
+          margin: 0 !important;
+        }
+        .bg-hero-letters {
+          background-position-y: 42% !important;
+        }
+
+        .order {
+          padding: 34px 0 49px !important;
+        }
       }
-    }
     </style>
   </head>
   <body style="margin: 0">
@@ -44,12 +53,15 @@
               width="100%"
             >
               <tr>
-                <td align="center" style="font-size: 0; padding: 24px 0; background: #00174b url('img/home-hero-letters.png') no-repeat right center;" class="bg-hero-letters">
+                <td
+                  align="center"
+                  style="font-size: 0; padding: 24px 0; background: #00174b url('images/home-hero-letters.png') no-repeat right center;"
+                  class="bg-hero-letters"
+                >
                   <!--[if gte mso 9]>
                         <table border="0" cellpadding="0" cellspacing="0">
                         <tr><td align="center">
                         <![endif]-->
-
 
                   <!--[if gte mso 9]> 
                           <table border="0" cellpadding="0" cellspacing="0" width="300"     align="center"><tr><td>  
@@ -58,12 +70,17 @@
                     style="display:inline-block; width:300px; height: 100%; 
                     margin:0; padding:0; text-align: center; margin-bottom: 5px;"
                   >
-                    <img src="img/leescadeau-logo.png" alt="" width="122" height="62" style="margin-left: -98px">
+                    <img
+                      src="images/leescadeau-logo.png"
+                      alt=""
+                      width="122"
+                      height="62"
+                      style="margin-left: -98px"
+                    />
                   </span>
                   <!--[if gte mso 9]>
                           </td></tr></table>
                           <![endif]-->
-
 
                   <!--[if gte mso 9]> 
                           <table border="0" cellpadding="0" cellspacing="0" width="300"     align="center"><tr><td>  
@@ -72,8 +89,8 @@
                     style="display:inline-block; width:300px;
                           margin:0; padding:0; text-align: center"
                   >
-                    <table 
-                      height= "62" 
+                    <table
+                      height="62"
                       border="0"
                       cellpadding="0"
                       cellspacing="0"
@@ -82,30 +99,72 @@
                     >
                       <tr>
                         <td style="text-align: center">
-                          <img src="img/letter-lijk.png" alt="" width="202" height="41">
+                          <img
+                            src="images/letter-lijk.png"
+                            alt=""
+                            width="202"
+                            height="41"
+                          />
                         </td>
                       </tr>
                     </table>
-                  
                   </span>
                   <!--[if gte mso 9]>
                           </td></tr></table>
                           <![endif]-->
 
-
                   <!--[if gte mso 9]>
                         </td></tr></table>
                         <![endif]-->
                 </td>
+              </tr>
+              <tr>
+                <td
+                  style="padding:34px 49px 49px 38px;  background: #ffffff url('images/home-hero-letters.png') no-repeat right bottom"
+                  class="order"
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="margin:0; padding: 20px 11px; background: #ff7871;"
+                    width="100%"
+                  >
+                    <tr>
+                      <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td
+                              style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 25px; font-weight: 700;"
+                            >
+                              Bedankt voor je bestelling,
+                            </td>
+                          </tr>
+                        </table>
 
-                <tr>
-                  <td style="height: 204px; background: #ffffff url('img/home-hero-letters.png') no-repeat right bottom">
-                      Bedankt voor je bestelling,
-                      we gaan er direct mee aan de slag!
-                      <br/>
-                      ordernummer: 2386541
-                  </td>
-                </tr>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td
+                              style="color: #ffffff; font-family: Arial MT, Helvetica, sans-serif; line-height: 25px; font-size: 25px; font-weight: 400; padding-bottom: 10px;"
+                            >
+                              we gaan er direct mee aan de slag!
+                            </td>
+                          </tr>
+                        </table>
+
+                        <table border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td
+                              style="color: #ffffff; font-family: Arial; font-size: 17px; font-weight: 700;"
+                            >
+                              ordernummer: 2386541
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
               </tr>
             </table>
 
