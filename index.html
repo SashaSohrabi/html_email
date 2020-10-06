@@ -10,9 +10,9 @@
     <style>
       @font-face {
         font-family: 'Arial MT';
-        src: local('ArialMT_light.ttf'),
-          url('fonts/ArialMT_light.ttf') format('truetype');
+        src: local('ArialMT.ttf'), url('fonts/ArialMT.ttf') format('truetype');
       }
+
       @media only screen and (max-width: 600px) {
         img {
           margin: 0 !important;
@@ -23,6 +23,18 @@
 
         .order {
           padding: 34px 0 49px !important;
+        }
+      }
+
+      @media only screen and (max-width: 428px) {
+        .bg-hero-letters {
+          background-position-y: 33% !important;
+        }
+      }
+
+      @media only screen and (max-width: 348px) {
+        .bg-hero-letters {
+          background-position-y: 25% !important;
         }
       }
     </style>
@@ -127,7 +139,7 @@
                     border="0"
                     cellpadding="0"
                     cellspacing="0"
-                    style="margin:0; padding: 20px 11px; background: #ff7871;"
+                    style="margin:0; padding: 20px 15px; background: #ff7871;"
                     width="100%"
                   >
                     <tr>
